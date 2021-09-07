@@ -1,0 +1,844 @@
+@media(max-width:2700px) {
+    .container {
+        max-width: 1850px;
+    }
+}
+
+@media(max-width:2200px) {
+    .container {
+        max-width: 1620px;
+    }
+    .compLogo .logoMain {
+        display: inline-block;
+        width: 300px;
+    }
+    .compLogo .logoMain a {
+        display: inline-block;
+        float: left;
+        width: 100%;
+    }
+    .compLogo .logoMain a img {
+        width: 100%;
+    }
+    .fixedHeader .compLogo .logoMain {
+        display: none;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .bannerContent h1 {
+        font-size: 100px;
+        line-height: 120px;
+    }
+    .nav-item {
+        margin-right: 80px;
+    }
+    .btnStyle {
+        font-size: 42px;
+        line-height: 44px;
+    }
+    .sectionHeading h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .fontSize40 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .fontSize48 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .fontSize28 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .stepArrow span {
+        display: inline-block;
+        width: 350px;
+    }
+    .stepArrow {
+        top: -47%;
+    }
+}
+
+@media(max-width:1920px) {
+    .container {
+        max-width: 1360px;
+    }
+    .compLogo .logoMain {
+        width: 240px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .nav-item.contactHere .nav-link {
+        padding: 16px 60px 16px 30px;
+    }
+    .nav-item.contactHere .nav-link .contactIcon {
+        margin-right: 20px;
+    }
+    .bannerContent h1 {
+        font-size: 90px;
+        line-height: 110px;
+    }
+    .btnStyle {
+        font-size: 38px;
+        line-height: 40px;
+        padding: 28px 100px;
+    }
+    .sectionHeading h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .topBanner {
+        margin-bottom: 80px;
+    }
+    .sectionHeading {
+        margin-bottom: 90px;
+    }
+    .fontSize40 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .listInfoBox h4 {
+        margin-bottom: 25px;
+    }
+    .fontSize28 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .fontSize48 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .stepArrow span {
+        display: inline-block;
+        width: 300px;
+    }
+    .stepArrow {
+        top: -40%;
+        left: -34%;
+    }
+    .methodsList .methodStepInner {
+        padding: 40px 0 50px;
+    }
+    .formStyle button {
+        padding: 28px 160px;
+    }
+    .weDoneList .listImage {
+        height: 290px;
+    }
+    .methodSection {
+        padding: 90px 0;
+    }
+    .contactDescription {
+        margin-bottom: 50px;
+    }
+    .contactDetailList ul li {
+        margin-bottom: 45px;
+    }
+    .nav-item {
+        margin-right: 60px;
+    }
+}
+
+@media(max-width:1560px) {
+    .container {
+        max-width: 1200px;
+    }
+    .compLogo .logoMain {
+        width: 190px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .nav-item.contactHere .nav-link .contactIcon {
+        width: 16%;
+        min-width: 16%;
+    }
+    .contactIcon .contactIconImg,
+    .contactIcon .contactIconImg img,
+    .contactIcon .contactIconImg2,
+    .contactIcon .contactIconImg2 img {
+        width: 100%;
+    }
+    .fixedHeader .logoScroll {
+        width: 250px;
+    }
+    .fixedHeader .logoScroll img {
+        width: 100%;
+    }
+    .bannerContent h1 {
+        font-size: 80px;
+        line-height: 100px;
+    }
+    .btnStyle {
+        font-size: 34px;
+        line-height: 34px;
+        padding: 22px 60px;
+    }
+    .sectionHeading h2 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .topBanner {
+        margin-bottom: 70px;
+    }
+    .sectionHeading {
+        margin-bottom: 80px;
+    }
+    .fontSize40 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .closeBtn .close {
+        font-size: 32px;
+    }
+    .closeBtn {
+        right: -30px;
+        top: -30px;
+        height: 60px;
+        width: 60px;
+    }
+    .fontSize48 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .stepArrow span {
+        width: 250px;
+    }
+    .methodsList {
+        padding: 30px 0;
+    }
+    .contactBoxHeading {
+        margin-bottom: 45px;
+    }
+    .formStyle .form-control {
+        font-size: 24px;
+        padding: 25px 25px;
+    }
+    .formStyle button {
+        padding: 22px 140px;
+    }
+    .formStyle textarea {
+        height: 240px;
+    }
+    .socialContact ul li {
+        width: 80px;
+    }
+    .scrolltoTop {
+        height: 60px;
+        width: 60px;
+    }
+    .scrolltoTop a {
+        font-size: 30px;
+    }
+    .whatWeDone {
+        margin-bottom: 110px;
+    }
+    .boxHover img {
+        width: 30%;
+    }
+}
+
+@media(max-width:1367px) {
+    .container {
+        max-width: 1130px;
+    }
+    .compLogo .logoMain {
+        width: 160px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .nav-item.contactHere .nav-link {
+        padding: 12px 30px 12px 20px;
+    }
+    .sectionHeading h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .fontSize40 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .fontSize28 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .listImagesBox .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .listImagesBox .row .col-sm-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .methodsList .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .methodsList .row .col-sm-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .fontSize48 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .methodsList .methodStepInner {
+        padding: 30px 0 40px;
+    }
+    .stepArrow {
+        top: -65%;
+        left: -5%;
+    }
+    .methodsList .methodStep .methodStepImg {
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    .methodsList .methodStep .methodStepImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .stepArrow span {
+        width: 210px;
+    }
+    .formStyle .form-control {
+        font-size: 20px;
+        padding: 20px 25px;
+    }
+    .contactDescription {
+        margin-bottom: 40px;
+    }
+    .contactDetailList ul li {
+        margin-bottom: 35px;
+    }
+    .socialContact ul li {
+        width: 70px;
+    }
+    .contactBoxForm {
+        padding-right: 20px;
+    }
+    .contactDetails {
+        padding-left: 20px;
+    }
+}
+
+@media(max-width:1199px) {
+    .container {
+        max-width: 100%;
+        padding: 0 50px;
+    }
+    .compLogo .logoMain {
+        width: 130px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .nav-item.contactHere .nav-link .contactIcon {
+        width: 12%;
+        min-width: 12%;
+    }
+    .fixedHeader .logoScroll {
+        width: 180px;
+    }
+    .nav-item {
+        margin-right: 40px;
+    }
+    .navbar-collapse {
+        padding: 15px 0;
+    }
+    .fixedHeader {
+        padding: 15px 50px;
+    }
+    .btnStyle {
+        font-size: 26px;
+        line-height: 28px;
+        padding: 18px 54px;
+    }
+    .bannerContent h1 {
+        margin-bottom: 10px;
+    }
+    .sectionHeading h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .sectionHeading {
+        margin-bottom: 50px;
+    }
+    .topBanner {
+        margin-bottom: 60px;
+    }
+    .weDoneList .col-sm-3,
+    .weDoneList .col-sm-9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .weDoneList .col-sm-3 .listInfoBox {
+        margin-bottom: 30px;
+    }
+    .listInfoBox {
+        text-align: left;
+    }
+    .listInfoBox h4 {
+        margin-bottom: 10px;
+    }
+    .weDoneList .listImage {
+        height: 230px;
+    }
+    .scrolltoTop {
+        height: 40px;
+        width: 40px;
+    }
+    .scrolltoTop a {
+        font-size: 20px;
+    }
+    .boxHover img {
+        width: 24%;
+    }
+    .weDoneList .listImage {
+        margin-bottom: 30px;
+    }
+    .scrollTopBox {
+        margin-top: 20px;
+    }
+    .whatWeDone {
+        margin-bottom: 80px;
+    }
+    .sectionBottom {
+        margin-top: 0;
+    }
+    .methodsList .methodStep .methodStepImg {
+        height: 80px;
+        margin-bottom: 15px;
+    }
+    .methodsList .methodStepInner {
+        padding: 25px 0 25px;
+    }
+    .methodSection {
+        padding: 60px 0 80px;
+    }
+    .stepArrow span {
+        width: 165px;
+    }
+    .methodSection {
+        margin-bottom: 70px;
+    }
+    .contactDetailList ul li .detailIcon {
+        width: 20px;
+        margin-right: 10px;
+    }
+    .contactDetailList ul li .detailIcon i {
+        font-size: 20px;
+    }
+    .socialContact ul li {
+        width: 60px;
+    }
+    .formStyle button {
+        padding: 18px 100px;
+    }
+}
+
+@media(max-width:991px) {
+    .container {
+        padding: 0 30px;
+    }
+    .header {
+        padding: 0 30px;
+    }
+    .fixedHeader {
+        padding: 15px 30px;
+    }
+    .bannerContent h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .btnStyle {
+        font-size: 22px;
+        line-height: 24px;
+        padding: 16px 45px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .fixedHeader .logoScroll {
+        width: 150px;
+    }
+    .compLogo .logoMain {
+        /* width: 100px; */
+    }
+    .nav-item {
+        margin-right: 30px;
+    }
+    .sectionHeading h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .sectionHeading {
+        margin-bottom: 40px;
+    }
+    .fontSize40 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .fontSize28 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .weDoneList .listImage {
+        height: 140px;
+    }
+    .fontSize48 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .methodsList .methodStep .methodStepImg {
+        height: 65px;
+    }
+    .stepArrow span {
+        width: 130px;
+    }
+    .stepArrow {
+        top: -58%;
+    }
+    .contactBoxHeading {
+        margin-bottom: 35px;
+    }
+    .contactDetails {
+        padding-left: 0px;
+    }
+    .contactBoxForm {
+        padding-right: 0px;
+    }
+    .socialContact ul li {
+        width: 55px;
+    }
+    .formStyle .form-control {
+        font-size: 18px;
+        padding: 20px 20px;
+    }
+    .formStyle textarea {
+        height: 180px;
+    }
+    .formStyle button {
+        padding: 16px 80px;
+    }
+}
+
+@media(max-width:767px) {
+    /* Sidenav Start */
+    .navLogo {
+        display: block;
+    }
+    .nav-item {
+        width: 100%;
+        float: left;
+        margin-right: 0;
+    }
+    .navbar-nav .nav-item .nav-link {
+        color: #4f4f4f;
+    }
+    .nav-item.navLogo {
+        width: 150px;
+        margin-bottom: 40px;
+    }
+    .navbar-expand-md .navbar-toggler {
+        display: block;
+    }
+    .navbar-nav .nav-item.contactHere .nav-link {
+        color: var(--colorWhite);
+        background-image: linear-gradient(to right, #663399, #622c9a, #5f249b, #5a1b9c, #56109d);
+        padding: 10px;
+    }
+    .nav-item.contactHere .nav-link .contactIcon {
+        margin-right: 10px;
+    }
+    .contactIcon .contactIconImg {
+        display: none;
+    }
+    .contactIcon .contactIconImg2 {
+        display: block;
+    }
+    .navbar-expand-md .navbar-collapse {
+        position: fixed;
+        width: 250px;
+        top: 0;
+        left: -250px;
+        height: 100%;
+        transition: all 0.3s ease;
+        display: initial !important;
+        margin-top: 0px;
+        padding: 20px 12px 0px 12px;
+        z-index: 9;
+        background-color: var(--colorWhite);
+    }
+    .nav-link:hover,
+    .nav-link:focus {
+        border-bottom: none;
+    }
+    .navbar-expand-md .navbar-nav {
+        flex-direction: column;
+    }
+    .navbar-light .navbar-nav .nav-item {
+        margin-bottom: 5px;
+    }
+    .headerBox {
+        display: block !important;
+        float: left !important;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding: 0;
+    }
+    .nav-item {
+        margin-bottom: 15px;
+    }
+    .navbar-expand-md .navbar-nav .dropdown-menu {
+        position: relative;
+        background: transparent;
+        border: none;
+        padding-bottom: 0;
+    }
+    .navbar-expand-md .navbar-nav .dropdown-menu.show {
+        transition: all 0.3s ease;
+    }
+    .dropdown-item {
+        color: var(--colorWhite);
+    }
+    /* Sidenav End */
+    .compLogo .logoMain {
+        width: 80px;
+    }
+    .slick-prev {
+        left: 30px;
+    }
+    .slick-next {
+        right: 30px;
+    }
+    .fixedHeader .navIcon,
+    .fixedHeader .navIcon::before,
+    .fixedHeader .navIcon::after {
+        background: var(--colorblack);
+    }
+    .fixedHeader .logoScroll {
+        width: 130px;
+    }
+    .slick-prev,
+    .slick-next {
+        height: 40px;
+        width: 30px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        height: 40px;
+        width: 30px;
+        background-size: contain;
+    }
+    .bannerContent h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .btnStyle {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 14px 30px;
+    }
+    .sectionHeading h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .topBanner {
+        margin-bottom: 40px;
+    }
+    .sectionHeading {
+        margin-bottom: 30px;
+    }
+    .listImagesBox .row .col-sm-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .scrollTopBox {
+        padding: 0 30px;
+    }
+    .methodsList .row .col-sm-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .stepLine {
+        display: none;
+    }
+    .stepContact {
+        margin-bottom: 30px;
+    }
+    .methodSection {
+        padding: 60px 0 40px;
+    }
+    .socialContact ul li {
+        width: 50px;
+    }
+    .contactBox {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:560px) {
+    .topBanner {
+        height: 70vh;
+    }
+    .mainBanner,
+    .bannerSlider {
+        height: 100%;
+    }
+    .bannerContent h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .listImagesBox .row .col-sm-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .methodsList .row .col-sm-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .stepArrow {
+        top: -45px;
+        left: -48%;
+    }
+    .methodsList .row .col-sm-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .methodStep {
+        width: 50%;
+        margin: 0 auto;
+        float: unset;
+    }
+    .contactDetails {
+        margin-top: 30px;
+    }
+    .slick-slider .slick-track,
+    .slick-slider .slick-list,
+    .bannerImage {
+        height: 100%;
+    }
+    .bannerImage img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .closeBtn .close {
+        font-size: 20px;
+    }
+    .closeBtn {
+        right: -20px;
+        top: -20px;
+        height: 40px;
+        width: 40px;
+    }
+    .modal-body {
+        padding: 5px;
+    }
+}
+
+@media(max-width:414px) {
+    .header {
+        padding: 0 15px;
+    }
+    .fixedHeader {
+        padding: 15px 15px;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .slick-prev,
+    .slick-next {
+        height: 25px;
+        width: 15px;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        height: 25px;
+        width: 15px;
+    }
+    .slick-prev {
+        left: 15px;
+    }
+    .slick-next {
+        right: 15px;
+    }
+    .bannerContent {
+        padding: 0 40px;
+    }
+    .bannerContent h1 {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .topBanner {
+        margin-bottom: 30px;
+    }
+    .listInfoBox {
+        padding-left: 0;
+    }
+    .fontSize28 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .weDoneList .col-sm-3 .listInfoBox {
+        margin-bottom: 25px;
+    }
+    .listImagesBox .row .col-sm-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .weDoneList .listImage {
+        height: auto;
+    }
+    .weDoneList .listImage {
+        margin-bottom: 15px;
+    }
+    .scrolltoTop {
+        height: 30px;
+        width: 30px;
+    }
+    .scrollTopBox {
+        padding: 0 15px;
+    }
+    .whatWeDone {
+        margin-bottom: 50px;
+    }
+    .methodSection {
+        margin-bottom: 50px;
+    }
+    .formStyle .form-control {
+        font-size: 16px;
+        padding: 15px 15px;
+    }
+    .formStyle .form-group {
+        margin-bottom: 15px;
+    }
+    .contactBoxHeading {
+        margin-bottom: 25px;
+    }
+    .formStyle textarea {
+        height: 150px;
+    }
+    .methodsList .methodStepInner {
+        padding: 25px 10px 25px;
+    }
+    .weDoneList {
+        margin-bottom: 15px;
+    }
+    .weDoneList:last-child {
+        margin-bottom: 0;
+    }
+}

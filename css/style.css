@@ -1,0 +1,755 @@
+@font-face {
+    font-family: 'arialmt';
+    src: url(../fonts/arialmt.otf);
+}
+
+
+/* Variables for color and font family Start */
+
+:root {
+    /* Colors */
+    --colorWhite: #fff;
+    --colorblack: #000;
+    --colorBlue: #663399;
+    --colorBlue2: #56109d;
+    --colorGrey2: #666666;
+    /* Font Family */
+    --arialmtFont: 'arialmt';
+    --alliseRegular: 'AlliseRegular';
+}
+
+
+/* Variables for color and font family End */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+button,
+a {
+    transition: all 0.35s ease 0s;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+a {
+    outline: none !important;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.boxs {
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+
+/* Header Start */
+
+.header {
+    position: fixed;
+    z-index: 999;
+    padding: 0 50px;
+}
+
+.fixedHeader {
+    position: fixed;
+    z-index: 999;
+    background: var(--colorWhite);
+    padding: 25px 50px;
+    box-shadow: 0px 0px 23px 0px rgb(0 0 0 / 30%);
+}
+
+.logoScroll {
+    display: none;
+}
+
+.fixedHeader .logoMain {
+    display: none;
+}
+
+.fixedHeader .logoScroll {
+    display: block;
+}
+
+.nav-item {
+    margin-right: 100px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.dropdown-item {
+    color: var(--colorBlue);
+    margin-right: 0;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.dropdown-item:last-child {
+    margin-bottom: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-default {
+    padding: 0;
+}
+
+.navbar-expand-md {
+    width: 100%;
+    padding: 0;
+    align-items: flex-start;
+}
+
+.navbar-collapse {
+    padding: 25px 0;
+}
+
+.navbar-expand-md .navbar-collapse {
+    display: block !important;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fixedHeader .navbar-expand-md {
+    align-items: center;
+}
+
+.fixedHeader .navbar-collapse {
+    padding: 0;
+}
+
+.contactIcon .contactIconImg {
+    display: inline-block;
+}
+
+.contactIcon .contactIconImg2 {
+    display: none;
+}
+
+.fixedHeader .contactIcon .contactIconImg {
+    display: none;
+}
+
+.fixedHeader .contactIcon .contactIconImg2 {
+    display: inline-block;
+}
+
+
+/* Common Style Start */
+
+.container {
+    max-width: 2320px;
+}
+
+.sectionHeading {
+    margin-bottom: 120px;
+}
+
+.sectionHeading h2 {
+    font-size: 80px;
+    line-height: 90px;
+    font-family: var(--arialmtFont);
+    color: var(--colorblack);
+}
+
+.fontSize48 {
+    font-size: 48px;
+    line-height: 58px;
+    font-family: var(--arialmtFont);
+}
+
+.fontSize40 {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: var(--arialmtFont);
+}
+
+.fontSize28 {
+    font-size: 28px;
+    line-height: 40px;
+    font-family: var(--arialmtFont);
+}
+
+.btnStyle {
+    font-size: 48px;
+    line-height: 50px;
+    font-family: var(--arialmtFont);
+    color: var(--colorWhite);
+    border: 1px solid var(--colorBlue2);
+    background-color: var(--colorBlue2);
+    padding: 34px 146px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #663399, #622c9a, #5f249b, #5a1b9c, #56109d);
+}
+
+.btnStyle:hover,
+.btnStyle:focus {
+    color: var(--colorWhite);
+}
+
+
+/* Common Style End */
+
+
+/* Banner Start */
+
+.sliderInner {
+    position: relative;
+}
+
+.bannerContent {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.bannerContent h1 {
+    font-size: 120px;
+    line-height: 144px;
+    color: var(--colorWhite);
+    font-family: var(--arialmtFont);
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.bannerContent span {
+    display: inline-flex;
+}
+
+.topBanner {
+    margin-bottom: 100px;
+}
+
+.slick-prev,
+.slick-next {
+    height: 85px;
+    width: 45px;
+    z-index: 9;
+}
+
+.slick-prev {
+    left: 50px;
+}
+
+.slick-prev:before {
+    content: '';
+    background-image: url('../img/arrowLeft.png');
+    height: 85px;
+    width: 45px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.slick-next {
+    right: 50px;
+}
+
+.slick-next:before {
+    content: '';
+    background-image: url('../img/arrowRight.png');
+    height: 85px;
+    width: 45px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: var(--arialmtFont);
+    color: var(--colorWhite);
+    padding: 0;
+}
+
+.fixedHeader .navbar-nav .nav-item .nav-link {
+    color: #663399;
+}
+
+
+/* Banner End */
+
+
+/* Sidenav Start */
+
+.navIcon {
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    right: 0px;
+    top: 50%;
+    background: var(--colorWhite);
+    transition-duration: 0.075s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.navIcon::before {
+    position: absolute;
+    content: '';
+    top: -8px;
+    left: 0;
+    height: 3px;
+    width: 30px;
+    background: var(--colorWhite);
+    transition: all 0.3s ease;
+}
+
+.navIcon::after {
+    position: absolute;
+    content: '';
+    top: 8px;
+    left: 0;
+    height: 3px;
+    width: 30px;
+    background: var(--colorWhite);
+    opacity: 1;
+    transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+}
+
+.navbar-toggler.active .navIcon:before {
+    top: 0;
+    opacity: 0;
+    transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+}
+
+.navbar-toggler.active .navIcon {
+    transform: rotate(45deg);
+    transition-delay: 0.12s;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.navbar-toggler.active .navIcon::after {
+    top: 0px;
+    transform: rotate(-90deg);
+    transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.navbar-expand-md .navbar-toggler {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.nav-item.contactHere .nav-link {
+    padding: 22px 100px 22px 40px;
+    background: var(--colorWhite);
+    border-radius: 8px;
+    color: #663399;
+}
+
+.nav-item.contactHere .nav-link .contactIcon {
+    margin-right: 40px;
+}
+
+.navbar-expand-md .navbar-nav {
+    align-items: center;
+}
+
+.fixedHeader .navbar-nav .nav-item .nav-link {
+    color: #4f4f4f;
+}
+
+.navbar-nav .nav-item.contactHere .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.fixedHeader .navbar-nav .nav-item.contactHere .nav-link {
+    color: var(--colorWhite);
+    background-image: linear-gradient(to right, #663399, #622c9a, #5f249b, #5a1b9c, #56109d);
+}
+
+
+/* Sidenav End */
+
+
+/* What we done Start */
+
+.whatWeDone {
+    margin-bottom: 150px;
+}
+
+.weDoneList .listImage {
+    height: 320px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.listImage .listImageInner {
+    height: 100%;
+}
+
+.listImage .listImageInner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.listImage {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.listImage .boxHover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.listImage:hover .boxHover {
+    left: 0;
+}
+
+.listInfoBox {
+    margin-top: 15px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.listInfoBox h4 {
+    margin-bottom: 35px;
+}
+
+.sectionBottom {
+    margin-top: 30px;
+}
+
+.listImagesBox .row {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+.listImagesBox .row .col-sm-4 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.listInfoBox h4 {
+    color: var(--colorblack);
+}
+
+.listInfoBox p {
+    color: var(--colorblack);
+}
+
+.highlightText {
+    color: var(--colorBlue);
+}
+
+
+/* What we done End */
+
+
+/* Methods Section Start */
+
+.methodSection {
+    background: url('../img/methodsBg.png') no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+    margin-bottom: 100px;
+}
+
+.methodInner h2 {
+    color: var(--colorWhite);
+}
+
+.methodsList {
+    position: relative;
+    padding: 50px 0;
+}
+
+.stepLine {
+    position: absolute;
+    top: 0;
+    left: 12%;
+    width: 80%;
+    height: 100%;
+}
+
+.stepLine img {
+    height: 100%;
+}
+
+.methodsList .row {
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.methodsList .row .col-sm-3 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.methodStep {
+    width: 100%;
+}
+
+.methodsList .methodStepInner {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    background: var(--colorWhite);
+    padding: 55px 0 70px;
+}
+
+.methodsList .methodStep .methodStepImg {
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+.stepContact {
+    position: relative;
+}
+
+.stepArrow {
+    position: absolute;
+    left: -32%;
+    top: -60%;
+    z-index: 0;
+}
+
+.stepContact a {
+    color: var(--colorblack);
+    display: inline-block;
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Methods Section End */
+
+
+/* Contact Section Start */
+
+.formStyle .form-group {
+    margin-bottom: 20px;
+}
+
+.formStyle .form-control {
+    font-size: 28px;
+    line-height: normal;
+    font-family: var(--arialmtFont);
+    color: var(--colorblack);
+    padding: 32px 30px;
+    border: 2px solid #e6e6e6;
+}
+
+.formStyle .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #e6e6e6;
+}
+
+.formStyle .form-control::placeholder {
+    color: #818181;
+}
+
+.formStyle textarea {
+    height: 270px;
+}
+
+.contactBoxForm {
+    padding-right: 35px;
+}
+
+.contactDetails {
+    padding-left: 35px;
+}
+
+.formStyle button {
+    padding: 34px 250px;
+}
+
+.contactBoxHeading {
+    margin-bottom: 70px;
+}
+
+.contactDescription p {
+    color: var(--colorGrey2);
+}
+
+.contactDescription {
+    margin-bottom: 70px;
+}
+
+.contactDetailList ul li {
+    margin-bottom: 55px;
+}
+
+.contactDetailList ul li .detailIcon {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.contactDetailList ul li .detailIcon i {
+    font-size: 30px;
+    color: #653399;
+}
+
+.contactDetailList ul li .detailDescrip,
+.contactDetailList ul li .detailDescrip a {
+    color: #434343;
+}
+
+.socialContact ul li {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.socialContact ul li a {
+    display: inline-block;
+}
+
+.contactBox {
+    margin-bottom: 45px;
+}
+
+
+/* Contact Section End */
+
+.modal.show .modal-dialog {
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.modal-content {
+    position: relative;
+}
+
+.closeBtn {
+    position: absolute;
+    right: -40px;
+    top: -40px;
+    z-index: 9;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--colorblack);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closeBtn .close {
+    font-size: 50px;
+    color: var(--colorWhite);
+    opacity: 1;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-open .modal {
+    background-color: #4c4c4c;
+}
+
+.g-recaptcha div {
+    /* width: 600px; */
+}
+
+.scrollTopBox {
+    margin-top: 40px;
+    padding: 0 50px;
+}
+
+.scrolltoTop {
+    height: 75px;
+    width: 75px;
+    background-image: linear-gradient(to right, #622a9a, #60279b, #5f239b, #5d1f9c, #5b1b9c);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.scrolltoTop a {
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    font-size: 40px;
+}
+
+.scrolltoTop a i {
+    color: var(--colorWhite);
+}
+
+.navLogo {
+    display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.methodsList .methodStepInner.methodStepContact:hover {
+    box-shadow: 0px 0px 8px 6px rgb(255 255 255 / 30%);
+}
